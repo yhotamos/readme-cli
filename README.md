@@ -1,4 +1,4 @@
-# readtime-cli
+# Readtime CLI
 
 Markdownやブログ記事の読み時間を推定するコマンドラインツールです．
 
