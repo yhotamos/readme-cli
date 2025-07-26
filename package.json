@@ -1,0 +1,27 @@
+{
+  "name": "readtime-cli",
+  "version": "0.1.0",
+  "description": "A command-line tool to estimate the reading time of Markdown and blog articles.",
+  "main": "dist/index.js",
+  "bin": {
+    "readtime": "./bin/readtime.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "readtime",
+    "cli",
+    "markdown",
+    "blog",
+    "reading-time"
+  ],
+  "author": "yhotta240",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3"
+  }
+}
