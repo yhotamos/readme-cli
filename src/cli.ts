@@ -7,7 +7,7 @@ import yargs from 'yargs';
  */
 export function parseArgs(args: string[]) {
   return yargs(args)
-    .usage('Usage: readtime <file> [--lang ja|en]')
+    .usage('Usage: readtime <file...> [--lang ja|en]')
     .option('lang', {
       alias: 'l',
       describe: '言語（ja=日本語，en=英語）',
