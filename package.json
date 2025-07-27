@@ -22,11 +22,13 @@
   "author": "yhotta240",
   "license": "MIT",
   "devDependencies": {
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^24.1.0",
     "@types/yargs": "^17.0.33",
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "jsdom": "^26.1.0",
     "yargs": "^18.0.0"
   }
 }
