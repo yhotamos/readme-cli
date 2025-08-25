@@ -21,6 +21,12 @@
   ],
   "author": "yhotta240",
   "license": "MIT",
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
   "devDependencies": {
     "@types/jsdom": "^21.1.7",
     "@types/node": "^24.1.0",
